@@ -1,4 +1,4 @@
-﻿/*using System;
+/*using System;
 class ClassRoom
 {
     private Pupil[] pupils;
@@ -246,7 +246,7 @@ class ProDocumentWorker : DocumentWorker
     }
     public override void SaveDocument()
     {
-        Console.WriteLine("Документ сохранен в старом формате, сохранение в дргуих форматах доступно в версии Ex[ert.]");
+        Console.WriteLine("Документ сохранен в старом формате, сохранение в дргуих форматах доступно в версии Expert.");
     }
 
 }
@@ -265,11 +265,11 @@ class Lab2_3
         Console.WriteLine("Введите номера ключа доступа для Pro/Expert: ");
         string key = Console.ReadLine();
         DocumentWorker user;
-        if (key == "pro_key")
+        if (key == "Pro")
         {
             user = new ProDocumentWorker();
         }
-        else if (key == "expert_key")
+        else if (key == "Expert")
         {
             user = new ExpertDocumentWorker();
         }
